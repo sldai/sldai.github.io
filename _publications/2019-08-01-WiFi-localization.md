@@ -1,6 +1,7 @@
 ---
 title: "Autonomous Robots Based Indoor WiFi Localization System"
 permalink: /publication/2019-08-01-WiFi-localization
+paperurl: 'https://arxiv.org/pdf/1911.11825'
 ---
 Indoor localization is a key technique to provide services about interaction with the indoor environment such as Virtual Reality and airport navigation. However, GPS can hardly be used in the indoor space, due to the obstruction from buildings itself. WiFi, which are widely used, are rich and accurate signal sources for localization. Much like using lidar or camera for mapping and localzation, we first build the WiFi signal strength map, then localize the users' smartphone according to their received signal strength. 
 
@@ -12,5 +13,5 @@ Mapping stage: for localization, we first need a high quality map, which represe
 
 Localization stage: when the smartphone receives the signals, we search over the map to find locations whose signals match the received signals best. Also we use step detector built in the phone and compass to inference the person's motion state. A particle filter fuses these two information and estimates the localization. The following video shows the result:
 
-![localization](https://youtu.be/FdbGS7_Mi3Y)
+<iframe width="868" height="488" src="https://www.youtube.com/embed/q3hONNn4UwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
