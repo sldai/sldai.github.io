@@ -9,5 +9,8 @@ Signal strength: Wireless signal gradually become weak during propagation, thus 
 Mapping stage: for localization, we first need a high quality map, which represents the WiFi signal strength at each location. A mobile robot is used to survey the environment, and a smartphone mounted on it collects the information. After collection completed, we build a Gaussian process model from the data, which maps each location to the signal strength vector. You can refer to the paper for more detail. Finally, we get the following map:
 
 ![WiFi signal map](http://sldai.github.io/images/WiFi_localization/heatmap_nosojourn.png) 
-Localization stage: 
+
+Localization stage: when the smartphone receives the signals, we search over the map to find locations whose signals match the received signals best. Also we use step detector built in the phone and compass to inference the person's motion state. A particle filter fuses these two information and estimates the localization. The following video shows the result:
+
+![localization](https://youtu.be/FdbGS7_Mi3Y)
 
