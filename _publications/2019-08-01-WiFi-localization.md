@@ -13,8 +13,4 @@ Mapping stage: for localization, we first need a high quality map, which represe
 
 Localization stage: when the smartphone receives the signals, we search over the map to find locations whose signals match the received signals best. Also we use step detector built in the phone and compass to inference the person's motion state. A particle filter fuses these two information and estimates the localization. The following video shows the result:
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<iframe width="1046" height="404" src="https://www.youtube.com/embed/FdbGS7_Mi3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
