@@ -28,7 +28,7 @@ $$
 x^{\top} \Sigma^{-1} x = ||x||^{2} \frac{x^{\top}}{||x||} \Phi^{\top} \Lambda^{-1} \Phi \frac{x}{||x||}
 $$
 
-From Rayleigh quotient, $\sigma_{\max}^{-1} \leq \frac{x^{\top}}{||x||} \Phi^{\top} \Lambda^{-1} \Phi \frac{x}{||x||} \leq \sigma_{\min}^{-1}$, when $\frac{x}{||x||}$ is corresponding eigenvector. Thus $||x||^2 = \sigma_{\max} r^2$ when the point direction is the largest eigenvector, $||x||^2 = \sigma_{\min} r^2$ when the point direction is the smallest eigenvector. It suggests that the eigenvectors are actually the axes of ellipse, and the axis length is propotional to eigenvalue.
+From Rayleigh quotient, $\sigma_{\max}^{-1} \leq \frac{x^{\top}}{\left \| x \right \|} \Phi^{\top} \Lambda^{-1} \Phi \frac{x}{\left \| x \right \|} \leq \sigma_{\min}^{-1}$, when $\frac{x}{\left \| x \right \|}$ is corresponding eigenvector. Thus $\left \| x \right \|^2 = \sigma_{\max} r^2$ when the point direction is the largest eigenvector, $\left \| x \right \|^2 = \sigma_{\min} r^2$ when the point direction is the smallest eigenvector. It suggests that the eigenvectors are actually the axes of ellipse, and the axis length is propotional to eigenvalue.
 
 In summary, the best subspace is the largest eigenvector. This is exactly what PCA does!
 
